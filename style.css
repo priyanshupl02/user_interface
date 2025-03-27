@@ -1,13 +1,238 @@
-*,*::after,*::before{
-    box-sizing: border-box;
-}
-
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
-body{
-    width: 100vw;
-    height:100vh;
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 228, 228);
 }
+
+.header_container{
+    background-color: white;
+    height: 125px;
+    padding: 2rem;
+    box-shadow: 5px 1px 10px #b0afaf;
+}
+.logo{
+    max-width: 6rem;
+    margin-top: 0.5rem;
+    margin-right:-1rem;
+}
+.bothBar{
+    display: flex;
+    justify-content: space-between;
+}
+.leftBar{
+    display: flex;
+    flex-direction: row;
+}
+.rightBar{
+    display: flex;
+    gap: 3rem;
+    
+}
+ul{
+    list-style-type: none;
+    gap: 1.5rem;
+}
+.mainItemLeft{
+    font-size: 45px;
+    margin-top: 0.8rem;
+    font-weight:bold;
+    margin-right: 4rem;
+    
+}
+.itemLeft{
+    margin-top: 2rem;
+    color: #9A9A9A;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1rem;
+}
+.icon{
+    max-width: 2rem;
+    margin-top: 1rem;
+}
+#signin{
+    margin-top: 1.5rem;
+}
+#signin a{
+    font-size: 15px;
+    font-weight: bold;
+    color:#9A9A9A; 
+    
+    
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    /* color: white; */
+}
+.signup{
+    margin-top: 1rem;
+    font-size: 15px;
+    border: 0.5px solid ;
+    background-color: #3F52FF;
+    color: white; 
+    padding: 0.5rem;
+    
+}
+
+.body1{
+    width: 720px;
+    height: 100px;
+    /* background-color: aqua; */
+    margin-top: 1rem;
+    margin-left: 6%;
+}
+.para_b1{
+    font-size: 12px;
+}
+.para_h1{
+    font-size: 32px;
+}
+span{
+    color: #0000FF;
+}
+.para_b2{
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-weight: 300;
+}
+.card_container{
+    width: 1794px;
+    height: 1974px;
+    margin: auto;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.card1{
+    width: 570px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* margin-top: 15px; */
+}
+.card_inside1{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.card_logoitem{
+    display: flex;
+}
+.card_logo{
+    width: 110px;
+    height: 47px;
+}
+.card_head{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#414BEA ;
+}
+table td{
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.card_row ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1{
+    margin-top: 50px;
+    color:#5A5858 ;
+    
+}
+.row2{
+    font-weight: bolder;
+}
+
+.row3{
+    margin-top: 30px;
+    color:#5A5858 ;
+}
+.row4{
+    font-weight: bolder;
+}
+.card_button{
+    color: #0000FF;
+}
+
+button{
+    margin-top: 40px;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 22px;
+    
+    
+}
+
+#rhpButton{
+    background-color: #fff;
+    border: 2px solid blue;
+    color: blue;
+}
+.dhrpButton{
+    background-color: #F05537;
+    border: #F05537;
+    
+}
+
+.faq_containerPart1{
+    margin-top: 3rem;
+    margin-left: 6%;
+
+}
+.faqmain{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    width: 1794px;
+    height: 1974px;
+    margin: auto;
+}
+.listfaq1{
+    height: 300px;
+    background-color: white;
+
+}
+.listfaq{
+    height: 181px;
+    background-color: white;
+    
+}
+div ul .listfaq1>ul{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+div ul .listfaq1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+div ul .listfaq{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 25px;
+
+}
+
+
